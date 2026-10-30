@@ -14,9 +14,9 @@ TELEGRAM_BOT_TOKEN = "AAFyqgTdbdW-vMg-k-a4ysyDWp4SJOg0JAg"  # @BotFather'dan oli
 GEMINI_API_KEY = "AQ.Ab8RN6IkeewXgRhzrbURaytSj26joAsZXmiuwCEHAEhWsfQZAQ"          # aistudio.google.com'dan olingan bepul key
 
 # Bot va Gemini sozlamalari
-bot = Bot(token=TELEGRAM_BOT_TOKEN)
+bot = Bot(token=AAFyqgTdbdW-vMg-k-a4ysyDWp4SJOg0JAg)
 dp = Dispatcher()
-client = genai.Client(api_key=GEMINI_API_KEY)
+client = genai.Client(api_key=AQ.Ab8RN6IkeewXgRhzrbURaytSj26joAsZXmiuwCEHAEhWsfQZAQ)
 
 logging.basicConfig(level=logging.INFO)
 
