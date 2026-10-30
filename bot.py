@@ -9,14 +9,13 @@ from aiogram.filters import Command
 from google import genai
 from google.genai import types as genai_types
 
-# API KALITLAR
-TELEGRAM_BOT_TOKEN = "AAFyqgTdbdW-vMg-k-a4ysyDWp4SJOg0JAg"  # @BotFather'dan olingan token
-GEMINI_API_KEY = "AQ.Ab8RN6IkeewXgRhzrbURaytSj26joAsZXmiuwCEHAEhWsfQZAQ"          # aistudio.google.com'dan olingan bepul key
+# RENDER'DAN AVTOMATIK O'QIYDI (KOD ICHIGA TOKEN YOZMANG!)
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-# Bot va Gemini sozlamalari
-bot = Bot(token=AAFyqgTdbdW-vMg-k-a4ysyDWp4SJOg0JAg)
+bot = Bot(token=TELEGRAM_BOT_TOKEN)
 dp = Dispatcher()
-client = genai.Client(api_key=AQ.Ab8RN6IkeewXgRhzrbURaytSj26joAsZXmiuwCEHAEhWsfQZAQ)
+client = genai.Client(api_key=GEMINI_API_KEY)
 
 logging.basicConfig(level=logging.INFO)
 
