@@ -11,7 +11,7 @@ from google.genai import types as genai_types
 
 # API KALITLAR
 TELEGRAM_BOT_TOKEN = "AAFyqgTdbdW-vMg-k-a4ysyDWp4SJOg0JAg"  # @BotFather'dan olingan token
-GEMINI_API_KEY = "AQ.Ab8RN6LYoGnkybZSJJq7SjeUYwD1xI8SnwkouPe66IiJuc6ClA"          # aistudio.google.com'dan olingan bepul key
+GEMINI_API_KEY = "AQ.Ab8RN6IkeewXgRhzrbURaytSj26joAsZXmiuwCEHAEhWsfQZAQ"          # aistudio.google.com'dan olingan bepul key
 
 # Bot va Gemini sozlamalari
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
