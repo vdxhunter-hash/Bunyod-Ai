@@ -23,11 +23,10 @@ logging.basicConfig(level=logging.INFO)
 @dp.message(Command("start"))
 async def start_cmd(message: types.Message):
     await message.answer(
-        "Assalomu alaykum! Men sizning aqlli AI agentingizman.\n\n"
-        "✨ **Imkoniyatlarim:**\n"
-        "1. Istalgan savolingizga Google Search orqali javob beraman.\n"
-        "2. **Rasm chizish:** 'Rasm chiz: ...' deb yozing.\n"
-        "3. **Video yaratish:** 'Video yarat: ...' deb yozing."
+        "Assalomu alaykum! Men Bunyodni AI agentiman.\n\n"
+        "✨ Imkoniyatlarim:\n"
+        " Istalgan savolingizga  javob beraman.\n"
+        
     )
 
 # Asosiy xabarlarni qayta ishlash
