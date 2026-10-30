@@ -10,7 +10,7 @@ from google import genai
 from google.genai import types as genai_types
 
 # API KALITLAR
-TELEGRAM_BOT_TOKEN = "AAHKkSeCu9QroBCBOBbLJW6CEm0msWdDmzw"  # @BotFather'dan olingan token
+TELEGRAM_BOT_TOKEN = "AAFyqgTdbdW-vMg-k-a4ysyDWp4SJOg0JAg"  # @BotFather'dan olingan token
 GEMINI_API_KEY = "AQ.Ab8RN6LYoGnkybZSJJq7SjeUYwD1xI8SnwkouPe66IiJuc6ClA"          # aistudio.google.com'dan olingan bepul key
 
 # Bot va Gemini sozlamalari
