@@ -11,7 +11,7 @@ from google.genai import types as genai_types
 
 # Token va API kalitni to'g'ridan-to'g'ri qo'shtirnoq ichiga yozamiz:
 TELEGRAM_BOT_TOKEN = "9063728538:AAFyqgTdbdW-vMg-k-a4ysyDWp4SJOg0JAg"
-GEMINI_API_KEY = "AQ.Ab8RN6IkeewXgRhzrbURaytSj26joAsZXmiuwCEHAEhWsfQZAQ"
+GEMINI_API_KEY = "AQ.Ab8RN6K_m0wlK_e2Uz6aVn6MA4e_B4E3Kf2FdPoJV00CR3Hs4A"
 
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
 dp = Dispatcher()
@@ -24,9 +24,8 @@ logging.basicConfig(level=logging.INFO)
 async def start_cmd(message: types.Message):
     await message.answer(
         "Assalomu alaykum! Men Bunyodni AI agentiman.\n\n"
-        "✨ Imkoniyatlarim:\n"
-        " Istalgan savolingizga  javob beraman.\n"
         
+      
     )
 
 # Asosiy xabarlarni qayta ishlash
