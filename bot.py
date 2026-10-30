@@ -9,9 +9,9 @@ from aiogram.filters import Command
 from google import genai
 from google.genai import types as genai_types
 
-# RENDER'DAN AVTOMATIK O'QIYDI (KOD ICHIGA TOKEN YOZMANG!)
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+# Token va API kalitni to'g'ridan-to'g'ri qo'shtirnoq ichiga yozamiz:
+TELEGRAM_BOT_TOKEN = "AAFyqgTdbdW-vMg-k-a4ysyDWp4SJOg0JAg"
+GEMINI_API_KEY = "AQ.Ab8RN6IkeewXgRhzrbURaytSj26joAsZXmiuwCEHAEhWsfQZAQ"
 
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
 dp = Dispatcher()
